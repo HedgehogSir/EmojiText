@@ -327,7 +327,7 @@ namespace UF
                 toFill.Clear();
                 return;
             }
-            var repairVec = new Vector3(0, fontSize * 0.1f);
+            var repairVec = new Vector3(0, fontSize * 0.3f, 0);
             var roundingOffset = new Vector2(verts[0].position.x, verts[0].position.y) * unitsPerPixel;
             roundingOffset = PixelAdjustPoint(roundingOffset) - roundingOffset;
             toFill.Clear();
